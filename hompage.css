@@ -1,0 +1,493 @@
+#container
+{
+
+
+    width:1230px;
+
+    height:auto;
+    border:1px solid black;
+    //background-image: url("75.jpg");
+    background-color: gray;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#header
+{ 
+    width:1230px;
+    height:15%;
+    background-color:;
+    border:1px solid black;
+    font-family: serif;
+ //background: linear-gradient(to left top, black,,black);
+
+    
+}
+#header1
+{
+    width:20%;
+    height:100%;
+    float: left;
+    background-color: ;
+    border:0px;
+ }
+#header2
+{   width:60%;
+   height:100%;
+    color: white;
+    border:0px solid white;
+    font-family: Geneva;
+    font-size: 50px;
+background: linear-gradient(to left top, black,blue,black);
+    text-align: center;
+    float:left;
+  }
+
+#header3
+{
+    width:20%;
+    height:100%;
+    float: left;
+   background-color: red;
+    border:0px;
+    }
+.test
+{
+    
+    font-size:20px;
+    text-align: center;
+}
+#shop
+{
+   width :100%;
+    height :50%; 
+    font-size: 20px;
+    text-align:center;
+    border :0px solid black;
+}
+#join
+{
+   width :100%;
+    height :50%; 
+    font-size: 20px;
+    text-align:left;
+    border :0px solid black;
+    margin-left: 10px;
+    margin-right: 5px;
+    
+}
+#menu
+{
+    background-color:;
+     height: 60px;
+    width:100%;
+    border:1px solid black;
+    margin: opx;
+    padding: 0px;
+ }
+
+#menu ul
+{
+    list-style: none;
+    margin-bottom: 5px;
+}
+#menu ul li
+{
+    background-color: palevioletred;
+    border: 2px solid white;
+    width: 228px;
+    height: 50px;  
+    line-height: 47px;
+    text-align: center;
+    float: left;
+    position: relative; 
+    border-radius: 8px; 
+    background-color:orange;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background:linear-gradient(45deg, orange, purple);
+    ;
+}
+
+#menu ul li a
+{
+    text-decoration: none;
+    color: white;
+	display: block;
+    font-size: 20px;  
+}
+#menu ul li a:hover 
+
+{
+    background-color: black;
+    border-radius: 8px; 
+    border-color: gray;
+}
+#menu ul ul
+{
+    position: absolute;
+    display: none;
+    padding: 0px;
+}
+#menu ul li:hover > ul
+{
+    display: block;
+    overflow: visible;
+}
+#menu ul ul ul
+{
+    margin-left: 180px;
+    top:0px;
+    
+}
+
+#center
+{
+
+    width:1155px;
+    height:90%;
+    background-color: white;
+    border:1px solid black;
+    text-align: center;
+    margin-left: 35px;
+   margin-right: 35px;
+    margin-top: 15px;
+    border-radius: 8px;
+    //background-image: url("75.jpg");
+}
+#midle1
+{
+    width:23%;
+    height:70%;
+    float:left;
+    background:linear-gradient(4deg, LightBlue,Violet,Salmon) ;
+    border:1px solid black;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px; border-color: gray;
+}
+
+
+#h1
+{
+  width:95%;
+    height:10%;
+    float:left;
+    font-size: 20px;
+    background-color: aqua;
+    border:1px solid black;
+     
+    text-align: center;   
+    margin: 6px;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    line-height: 30px;
+    background: linear-gradient(to left top, black,dimgrey,black);
+}
+/*#menu1
+{
+	width:80%;
+	height:75%;
+	float:left;
+	border-radius:30px;
+    background-color:skyblue;
+	/*border-radius:20px 20px 20px 20px;*/
+}
+*/
+*
+{
+    margin:0px;
+    padding: 0px;
+}
+#menu1 ul
+{
+    list-style: none;
+}
+
+#menu1 ul li
+{
+    width:80%;
+	height:7%;
+	margin-left:4%;
+	margin-right:4%;
+	background-color:dimgrey;
+	margin-bottom: 10px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	float: left;
+     border: 1px solid black;
+	color:white;
+
+
+
+}
+
+#menu1 ul li:hover
+{
+   width:80%;
+	height:7%;
+	margin-left:4%;
+	margin-right:4%;
+	background-color:black;
+ 
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;;
+	font-weight:bold;
+	text-align:center;
+	margin-bottom: 10px;
+	color:white;
+    overflow: visible;
+}
+
+#menu1 ul li a
+{
+    color: white;
+    font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	/*padding-top:15px;*/
+	text-decoration:none;
+}
+
+#menu1 ul li a:hover
+{
+    color:white;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	/*padding-top:15px;*/
+	text-decoration:none;
+    /*display: block;*/
+}
+
+
+#menu1 ul ul
+{
+    
+    display: none;
+}
+
+#menu1 ul li:hover> ul
+{
+    display: block;
+}
+
+.1
+{
+    border-radius:30px 0px 0px 30px;
+    background-color :black;
+}
+
+/*#m1
+{
+  width:80%;
+    height:7%;
+    float:left;
+    font-size: 18px;
+    background-color: aqua;
+    border:0px solid black;
+    text-align: center;   
+    border-radius: 5px;
+    margin-left:25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}*/
+  
+    
+}/*#m2
+{
+  width:80%;
+    height:7%;
+    float:left;
+    font-size: 18px;
+    background-color: aqua;
+    border:0px solid black;
+    text-align: center;   
+    border-radius: 5px;
+    margin-left:25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}#m3
+{
+  width:80%;
+    height:7%;
+    float:left;
+    font-size: 18px;
+    background-color: aqua;
+    border:0px solid black;
+    text-align: center;   
+    border-radius: 5px;
+    margin-left:25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}#m4
+{
+  width:80%;
+    height:7%;
+    float:left;
+    font-size: 18px;
+    background-color: aqua;
+    border:0px solid black;
+    text-align: center;   
+    border-radius: 5px;
+    margin-left:25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}#m5
+{
+  width:80%;
+    height:7%;
+    float:left;
+    font-size: 18px;
+    background-color: aqua;
+    border:0px solid black;
+    text-align: center;   
+    border-radius: 5px;
+    margin-left:25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    
+}#m6
+{
+  width:80%;
+    height:7%;
+    float:left;
+    font-size: 18px;
+    background-color: aqua;
+    border:0px solid black;
+    text-align: center;   
+    border-radius: 5px;
+    margin-left:25px;
+    margin-right: 25px;
+    margin-bottom:10px; 
+}#m7
+{
+  width:80%;
+    height:7%;
+    float:left;
+    font-size: 18px;
+    background-color: aqua;
+    border:0px solid black;
+    text-align: center;   
+    border-radius: 5px;
+    margin-left:25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+*/
+
+
+#midle2
+{
+    width:60%;
+    height:70%;
+    float:left;
+    background-color: yellow;
+    border:2px solid black;
+    text-align: center;
+
+}
+
+#img1
+{
+    width:50%;
+    height:30%;
+    float:left;
+    background-color: aqua;
+    //border:1px solid black;
+    margin: 15px;
+    text-align: center;
+    font-size: 20;
+    color:black; 
+    border-radius: 8px;
+}
+#img5
+{
+    width:65%;
+    height:50%;
+    float:left;
+    background-color: aqua;
+    //border:1px solid black;
+    margin-left: 15px;
+    margin-right: 50px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20;
+    color:black; 
+    
+    
+}
+#h3
+{
+    width:90.5%;
+    height:10%;
+    float:left;
+    background-color: dimgrey;
+    border:1px solid black;
+    
+    text-align: left;
+    font-size: 25;
+    color: black;
+    font-weight: bold;
+    border-color: gray;
+}
+#img2
+{
+    width:30%;
+    height:85%;
+    float:left;
+    //background-color: aqua;
+    border:1px solid black;
+    
+     border-color: gray;
+    text-align:center;
+    font-size: 20;
+    color:black; 
+    
+}
+#img3
+{
+    width:30%;
+    height:85%;
+    float:left;
+    //background-color: aqua;
+    border:1px solid black;
+    //margin: 6px;
+    text-align: center;
+    font-size: 20;
+    color:black; 
+     border-color: gray;
+}
+#img4
+{
+    width:30%;
+    height:85%;
+    float:left;
+    background-color: aqua;
+    border:1px solid black;
+    //margin: 6px;
+    text-align: center;
+    font-size: 20;
+    color:black; 
+     border-color: gray;
+}
+
+#footer
+{
+    width:1226px;
+    height: 15%;
+    background-color: black;
+    font-weight: bold;
+    background: linear-gradient(to left top, black,darkgray,black);
+    color: white;
+    float: left;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+}
